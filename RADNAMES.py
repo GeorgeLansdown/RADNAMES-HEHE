@@ -20,4 +20,4 @@ for line in open('names', 'r').readlines():
 	names.append(line)
 
 for n in names:
-	print n, generate(n)
+	print(n  + generate(n))
